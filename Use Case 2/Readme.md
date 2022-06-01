@@ -38,6 +38,7 @@ Libraries: py_causal (https://github.com/bd2kccd/py-causal) (or directly the lib
 *Commands*: 
 python causal_model.py
 (or run the notebook)
+
 java SEM.java
  
 To replicate on a different subject, use Locust and monitoring scripts on the new subject, thus apply all the steps i) to iv). Replace the input dataset filenames in the two files above. 
