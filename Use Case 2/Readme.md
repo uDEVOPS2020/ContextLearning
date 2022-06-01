@@ -39,14 +39,16 @@ Libraries:
 
 py_causal (https://github.com/bd2kccd/py-causal). This is directly cloned in the code, there's no need to clone and load it. 
 
-tetrad-gui-7.1.0-launch.jar (add this library to the build when running SEM.java)
+tetrad-gui-7.1.0-launch.jar (add this library to the build when running Sem.java)
 
 Everything could be done also by directly using the Tetrad Java library (https://www.tetradcausal.app/). 
 
 *Commands*: 
 
->  python MSA_causal_model.py *(or run the notebook)*
+>  You can run the "MSA_causal_model.ipynb" notebook
 
->  java SEM.java
+>  You can run the java code, once added the tetrad library to the build path): java Sem.java <path-to-file/filename>.csv
  
+An example dataset file you can use is "MSA_medians_RT.csv" located in the "Use Case 2/dataset" folder, which is the same suggested in the MSA_causal_model notebook 
+
 To replicate on a different subject, use Locust and monitoring scripts on the new subject, thus apply all the steps i) to iv). Replace the input dataset filenames in the two files above. 
