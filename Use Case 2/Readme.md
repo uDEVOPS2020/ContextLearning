@@ -32,10 +32,13 @@ Moreover, in the SEM folder, you will find the Structural Equation Model corresp
 To reproduce:  use the code files from steps iii) to iv). 
 
 *Prerequisites*: 
+
 Python (version >3), JVM/JRE (version > 1.8). 
+
 Libraries: py_causal (https://github.com/bd2kccd/py-causal) (or directly the library used by py_causal, Tetrad (https://www.tetradcausal.app/)). 
 
 *Commands*: 
+
 >  python causal_model.py *(or run the notebook)*
 
 >  java SEM.java
