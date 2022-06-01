@@ -36,8 +36,8 @@ Python (version >3), JVM/JRE (version > 1.8).
 Libraries: py_causal (https://github.com/bd2kccd/py-causal) (or directly the library used by py_causal, Tetrad (https://www.tetradcausal.app/)). 
 
 *Commands*: 
-**_NOTE:_**  python causal_model.py *(or run the notebook)*
+>  python causal_model.py *(or run the notebook)*
 
-**_NOTE:_**  java SEM.java
+>  java SEM.java
  
 To replicate on a different subject, use Locust and monitoring scripts on the new subject, thus apply all the steps i) to iv). Replace the input dataset filenames in the two files above. 
