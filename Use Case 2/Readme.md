@@ -45,7 +45,7 @@ Everything could be done also by directly using the Tetrad Java library (https:/
 
 *Commands*: 
 
->  python causal_model.py *(or run the notebook)*
+>  python MSA_causal_model.py *(or run the notebook)*
 
 >  java SEM.java
  
