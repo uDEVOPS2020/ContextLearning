@@ -35,7 +35,13 @@ To reproduce:  use the code files from steps iii) to iv).
 
 Python (version >3), JVM/JRE (version > 1.8). 
 
-Libraries: py_causal (https://github.com/bd2kccd/py-causal) (or directly the library used by py_causal, Tetrad (https://www.tetradcausal.app/)). 
+Libraries: 
+
+py_causal (https://github.com/bd2kccd/py-causal). This is directly cloned in the code, there's no need to clone and load it. 
+
+tetrad-gui-7.1.0-launch.jar (add this library to the build when running SEM.java)
+
+Everything could be done also by directly using the Tetrad Java library (https://www.tetradcausal.app/). 
 
 *Commands*: 
 
