@@ -34,6 +34,7 @@ Libraries: Anomalize (R code, https://cran.r-project.org/web/packages/anomalize/
 
 *Commands*: 
 > ./anomaly_detection.R   #for anomaly detection
+
 > ./MuTE.py             	 #for modelling relation between microservices and the anomaly
  
 To replicate on a different subject, use Locust and DockerStats monitoring on the new subject, thus apply all the steps i) to iv). Replace the the dataset input filenames in the the two scripts above. 
