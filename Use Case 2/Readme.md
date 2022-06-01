@@ -1,7 +1,5 @@
-# Use case 1. Prioritzing test cases for effective regression testing in MSA. 
-Antonio. 
 
-# Use case 2. Characterizing causal-effect releations betweeen microservices in an MSA. 
+## Use case 2. Characterizing causal-effect releations betweeen microservices in an MSA. 
 The folder "Case 2" contains: 
 - **Dataset**. This is the dataset used as illustrative example for this use case. It is derived by running a load on a well-known open-source benchmark for microservice  architecture (MSA), named Train Ticket [1].  The application simulates a train ticket booking system, composed of 41 microservices communicating to each other via REST over HTTP. Train ticket is  polyglot (e.g., Java, golang, Node.js, etc). 
 
@@ -39,7 +37,7 @@ To replicate on a different subject, use Locust and monitoring scripts on the ne
 ...
 
 
-# Use case 3 
+## Use case 3 
 
 Description (DA SPOSTARE IN DELIVEARBLE, no va qua): 
 Opzione 1. Backward
@@ -83,7 +81,7 @@ To replicate on a different subject, use Locust and monitoring scripts on the ne
 ...
 
 
-# Use case 4 
+## Use case 4 
 
 The folder "Case 4" contains: 
 - **Dataset**. This is the dataset used as illustrative example for this use case. The dataset consists of commit data for 6 (VA BENE ANCHE UNA) open source applications. It is cloned from a Just-In-Time Defect Prediction (JIT-DP) research work repository [1]. The generation procedure is as follows: PROCEDURA DA PAPER: data extraction, labelling by the SZZ algorithm.
