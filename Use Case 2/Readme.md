@@ -45,9 +45,9 @@ Everything could be done also by directly using the Tetrad Java library (https:/
 
 *Commands*: 
 
->  You can run the "MSA_causal_model.ipynb" notebook
+>  You can run the "*MSA_causal_model.ipynb*" notebook
 
->  You can run the java code, once added the tetrad library to the build path): java Sem.java <path-to-file/filename>.csv
+>  You can run the java code, once added the tetrad library to the build path: *java Sem.java <path-to-file/filename>.csv*
  
 An example dataset file you can use is "MSA_medians_RT.csv" located in the "Use Case 2/dataset" folder, which is the same suggested in the MSA_causal_model notebook 
 
