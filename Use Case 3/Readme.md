@@ -28,6 +28,7 @@ Each row is a sample every 5 seconds.
 To reproduce:  use the code files from steps iii) to iv). 
 
 *Prerequisites*: 
+
 Python (version >3), JVM/JRE (version > 1.8). 
 
 Libraries: Anomalize (R code, https://cran.r-project.org/web/packages/anomalize/)  IDTxl (https://github.com/pwollstadt/IDTxl)
