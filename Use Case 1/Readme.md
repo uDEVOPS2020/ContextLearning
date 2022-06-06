@@ -6,7 +6,7 @@ This folder contains:
 
 Dataset has the following columns: 
 
-testID | HTTP status code | Response Time | URL | HTTP method | Input Classes | ...
+testID | HTTP status code | Response Time | URL | HTTP method | Input Class 1 | ... | Input Class N |
 
 Each row is an executed test. 
 
