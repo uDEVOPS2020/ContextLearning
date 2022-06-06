@@ -1,32 +1,34 @@
-Use case 1
-=============
-	- Description: The objective of this use case is to support test prioritization, namely: given a list of tests to run, the goal is to run first the ones more likely to expose failures.    
-    Prioritization is done by applying machine learning algorithms to features of request/response and/or of the invoked Microservice that correlated more with quality metrics, such as performance (e.g., response time), reliability (e.g., status code) or coverage. The feedback allows for prioritizing test cases.  
-		- Source of information: Execution traces of previously executed testing sessions, or resulting from monitoring of the application during operation.
-    
-		- Metrics: Response Time and status code are both considered to perform the prioritization. The  ranking score is computed as follows: ranking_score = response_code+1/(response_time)*100. The response codes higher than or equal to 400 correspond to failed tests; at the same time, a lower  response time implies a higher  priority of the test. As result, the higher the value of the ranking score, the higher the priority of the considered test. 
-    
-		- Modeled facet: Behavioural, Failing behaviour
-		- Type of model(s): Learning-to-rank algorithm
 
-		- Learning algorithm used: Learning-to-rank (classification/regression) algorithms included in the RankLib library (Dang, V. “The Lemur Project-Wiki-RankLib.” Lemur Project,[Online]. Available at http://sourceforge.net/p/lemur/wiki/RankLib):
-			- MART (Multiple Additive Regression Trees, a.k.a. Gradient boosted regression tree)
-			- RankNet
-			- RankBoost
-			- AdaRank
-			- Coordinate Ascent
-			- LambdaMART
-			- ListNet
-			- Random Forests
+## Use case 1. Test case prioritization via Learning to rank techniques. 
 
-		- Decision support category: Fault avoidance
-		- Decision support about: Testing for fault detection and coverage.
+This folder contains: 
+- **Original Dataset**. This is the dataset used as illustrative example for this use case. It is derived by running a load on a well-known open-source benchmark for microservice  architecture (MSA), named Train Ticket [1].  The application simulates a train ticket booking system, composed of 41 microservices communicating to each other via REST over HTTP. Train ticket is  polyglot (e.g., Java, golang, Node.js, etc). 
 
-_______________________
+Dataset has the following columns: 
 
-To run the script type the following command:
->> sh ranking.sh
+testID | HTTP status code | Response Time | URL | HTTP method | Input Classes | ...
 
-csv_parsing.py is a Python script to parse the CSV in input to generate training and test datasets.
-artifact.py is a Python script to select the ranker, train it, and then perform the ranking on the test data.
-score_parsing.py generates the ordered list of test IDs (column "1").
+Each row is an executed test. 
+
+- **Training and test sets generator**. The training and test sets are generated through the csv_parsing.py script. The datasets are encoded in the format required by RankLib to perform the training and the prioritization.
+
+- **Prioritization**. Response Time and status code are both considered to perform the prioritization. The ranking score is computed as follows: ranking_score = response_code+1/(response_time)*100. The response codes higher than or equal to 400 correspond to failed tests; at the same time, a lower  response time implies a higher  priority of the test. As result, the higher the value of the ranking score, the higher the priority of the considered test.
+
+- **Results**. The output of the Learning to Rank algorithms are ordered lists of test IDs (column "1").
+
+
+- **Code**. Python code files/scripts to: i) generate training and test sets, ii) train and execute the Lerning to Rank techniques, iii) build the ordered list of testIDs. 
+
+*Prerequisites*: 
+
+Python (version >3), JVM/JRE (version > 1.8). 
+
+Libraries: 
+
+RankLib library (Dang, V. “The Lemur Project-Wiki-RankLib.” Lemur Project,[Online]. Available at http://sourceforge.net/p/lemur/wiki/RankLib)
+
+
+*Commands*: 
+
+>  You can run the "sh ranking.sh" script to perform the ranking of the selected dataset.
+
