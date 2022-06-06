@@ -15,6 +15,7 @@ N_trees = 30
 labels = np.array(df['bug'])
 df= df.drop('bug', axis = 1)
 df= df.drop('_id', axis = 1)
+df= df.drop('__', axis = 1) #This feature has the same values of the bug column, for this reason it is removed
 df= df.drop('Unnamed: 0', axis = 1)
 features = np.array(df)
 
@@ -32,7 +33,7 @@ for i in range(0,N_trees):
     importance = model.coef_[0]
     df_f = df_f.append(pd. Series(importance, index = df. columns),ignore_index=True)
 
-print(df_f)
+#print(df_f)
 
 print("Features importance is:")
 print(df_f.mean().sort_values())
