@@ -30,5 +30,5 @@ RankLib library (Dang, V. “The Lemur Project-Wiki-RankLib.” Lemur Project,[O
 
 *Commands*: 
 
->  You can run the "sh ranking.sh" script to perform the ranking of the selected dataset.
+>  You can run the "sh ranking.sh" script to perform the ranking of the selected test dataset.
 
