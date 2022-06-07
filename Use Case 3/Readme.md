@@ -25,7 +25,7 @@ An example dataset file you can use is "ex_10m_spike_30s_10-150_DT.csv" located 
  
 - **Results**. It contains the results of applying the model to the dataset. They show the graphical representation of possible anomalies detected in any container-level metric, and then the result of Multivariate Transfer Entropy (MuTE) applied to the series of the same type (e.g., all CPU consumption time series) in order to assess any temporal cause-effect relation. The MuTE output are both in textaul form and as a graph (i.e., the network) representing which time series transfer more entropy to which other and at which significance.  
 
-- **Anomaly detection**. i) read the dataset and apply the algorithms to create the model for anomaly/changepoint detection, and ii) then identify the top-X microservices impacting more node-level stress/consumption by applying MuTE. 
+- **Anomaly detection and root cause analysis**. i) read the dataset and apply the algorithms to create the model for anomaly/changepoint detection, and ii) then identify the top-X microservices impacting more node-level stress/consumption by applying MuTE. 
 
 *Prerequisites*: 
 
