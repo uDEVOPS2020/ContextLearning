@@ -4,12 +4,11 @@ library(anomalize)
 library(patchwork)
 library(gridExtra)
 
-rFrame <- read_csv("./ex_10m_spike_30s_10-150_DT.csv",col_types = cols(DateTime = col_datetime(format = "%Y-%m-%d %H:%M:%S")))
+args = commandArgs(trailingOnly=TRUE)
 
-
+rFrame <- read_csv(args[1],col_types = cols(DateTime = col_datetime(format = "%Y-%m-%d %H:%M:%S")))
 
 count = as.integer(0)
-
 
 l <- list()
 for(i in names(rFrame)){
@@ -18,8 +17,10 @@ for(i in names(rFrame)){
     p <- (rFrame %>% time_decompose(i, frequency = "12 seconds", trend="1 minutes", merge = TRUE) %>% anomalize(remainder) %>% time_recompose()) %>% plot_anomalies(ncol = 3, alpha_dots = 0.25) + ggtitle(i)
     l <- append(l,list(p))
   }
-  
 }
 
 #wrap_plots(l)
-grid.arrange(grobs = l, ncol = 6)
+#grid.arrange(grobs = l, ncol = 6)
+
+g <- arrangeGrob(grobs = l, ncol = 6)
+ggsave(file="anomalies.jpg", g, width = 20, height = 10)
