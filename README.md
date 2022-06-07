@@ -7,8 +7,8 @@ Details about the techniques used and a full description of the use case are ava
 There is a Readme file in every use case that describes the content and usage. 
 
 
-[1]. TRAIN TICKET REFERENCE
-[2]. LOCUST REFERENCE. 
+[1]. [TrainTicket](https://github.com/FudanSELab/train-ticket)
+[2]. [Locust](https://locust.io/). 
 
 *Note: This GitHub repository is meant to be evolved as the project advances.*  
 
