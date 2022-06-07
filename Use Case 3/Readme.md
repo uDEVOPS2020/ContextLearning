@@ -33,6 +33,8 @@ Python (version >3), JVM/JRE (version > 1.8).
 
 Libraries: Anomalize (R code, https://cran.r-project.org/web/packages/anomalize/)  IDTxl (https://github.com/pwollstadt/IDTxl)
 
+For IDTxl, follow the instructions at https://github.com/pwollstadt/IDTxl to install it. 
+
 *Commands*: 
 > ./anomaly.R   #for anomaly detection
 
