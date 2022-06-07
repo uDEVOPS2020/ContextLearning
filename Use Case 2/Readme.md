@@ -33,7 +33,7 @@ To reproduce:  use the code files from steps iii) to iv).
 
 *Prerequisites*: 
 
-Python (version >3), JVM/JRE (version > 1.8). 
+Python (version >3), JVM/JRE (version > 1.8), Locust (tested with version 2.8.6). 
 
 Libraries: 
 
