@@ -4,9 +4,7 @@
 This folder contains: 
 - **Dataset**. This is the dataset used as illustrative example for this use case. It is derived by running a load on a well-known open-source benchmark for microservice  architecture (MSA), named Train Ticket [1].  The application simulates a train ticket booking system, composed of 41 microservices communicating to each other via REST over HTTP. Train ticket is  polyglot (e.g., Java, golang, Node.js, etc). 
 
-Dataset has the following columns: 
-
-| Reponse Time median MS1 | ... | Response Time median MSn |
+Dataset has the following columns: | Reponse Time median MS1 | ... | Response Time median MSn |
 
 Each row is a sample every 5 seconds. 
 
