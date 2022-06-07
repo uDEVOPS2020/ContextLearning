@@ -34,7 +34,7 @@ Python (version >3), JVM/JRE (version > 1.8).
 Libraries: Anomalize (R code, https://cran.r-project.org/web/packages/anomalize/)  IDTxl (https://github.com/pwollstadt/IDTxl)
 
 *Commands*: 
-> ./anomalyR   #for anomaly detection
+> ./anomaly.R   #for anomaly detection
 
 > ./MuTE.py             	 #for modelling relation between microservices and the anomaly
  
