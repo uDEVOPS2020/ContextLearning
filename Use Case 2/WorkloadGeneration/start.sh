@@ -1,5 +1,5 @@
 #!/bin/sh
-# 60 sec / 5 sec = 12 * n (min) => num esecuzioni
+# 60 sec / 5 sec = 12 * n (min) => num
 
 
 numSamples=$((12*$1))
