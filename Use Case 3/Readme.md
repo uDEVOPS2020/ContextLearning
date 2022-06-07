@@ -27,7 +27,7 @@ Each row is a sample every 5 seconds.
 
 *Prerequisites*: 
 
-Python (version >3), JVM/JRE (version > 1.8), Locust (tested with version 2.8.6). 
+Python (version >3), JVM/JRE (version > 1.8), Locust (used with version 2.8.6). 
 
 Libraries: Anomalize (R code, https://cran.r-project.org/web/packages/anomalize/)  IDTxl (https://github.com/pwollstadt/IDTxl)
 
