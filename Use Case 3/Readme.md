@@ -8,9 +8,9 @@ Opzione 2. Forward.
 Same goal, but the idea is to build a multivariate model for forecasting (Vector Arima), with the continuer metrics along with the consumption metric, and then use feature selection/ranking to identify the culprit microservice. 
 
 This folder contains: 
-- **Dataset**. This is the dataset used as illustrative example for this use case. It is derived by running a load on a well-known open-source benchmark for microservice  architecture (MSA), named Train Ticket [1].  The application simulates a train ticket booking system, composed of 41 microservices communicating to each other via REST over HTTP. Train ticket is  polyglot (e.g., Java, golang, Node.js, etc). 
-Dataset has the following columns: 
-|Container1 CPU usage| ... |ContainerN CPU usage|Container1 Memory usage| ... |ContainerN Memory usage|
+- **Dataset**. This is the dataset used as illustrative example for this use case. It is derived by running a load on a well-known open-source benchmark for microservice  architecture (MSA), named Train Ticket [1].  The application simulates a train ticket booking system, composed of 41 microservices communicating to each other via REST over HTTP. Train ticket is  polyglot (e.g., Java, golang, Node.js, etc).
+
+Dataset has the following columns: |Container1 CPU usage| ... |ContainerN CPU usage|Container1 Memory usage| ... |ContainerN Memory usage|
 
 
 Each row is a sample every 5 seconds.
