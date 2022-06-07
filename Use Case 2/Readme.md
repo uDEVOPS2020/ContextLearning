@@ -27,7 +27,7 @@ It is also implied taht A is not a cause of B and B is not a cause of A.
 
 Moreover, in the SEM folder, you will find the Structural Equation Model corresponding to the graph: they express, for any cause-effect pair, how much of the effect is explained by a unit variation of the cause. This allows discovering the relations between microservices, in terms of response time, useful for design and testing. 
 
-- **Causal discovery**. iii) read the dataset and apply the algorithms for causal structure discovery to create a causal model (both as a notebook and as .py file), iv) compute and output the SEM model. 
+- **Causal discovery**. i) read the dataset and apply the algorithms for causal structure discovery to create a causal model (both as a notebook and as .py file), ii) compute and output the SEM model. 
 
 To reproduce: generate the workload, and then use the causal discovery files. 
 
