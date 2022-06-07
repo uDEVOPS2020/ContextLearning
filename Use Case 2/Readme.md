@@ -29,7 +29,7 @@ Moreover, in the SEM folder, you will find the Structural Equation Model corresp
 
 *Prerequisites*: 
 
-Python (version >3), JVM/JRE (version > 1.8), Locust (tested with version 2.8.6). 
+Python (version >3), JVM/JRE (version > 1.8), Locust (used with version 2.8.6). 
 
 Libraries: 
 
