@@ -15,9 +15,9 @@ Each row is a sample every 5 seconds.
 <!-- - **Monitoring data**. The folder contains raw data gathered by monitoring. 
 This includes for each request: a flag indicating if the request conform to a valid/invalid user behaviour, response time, response HTTP status code, and the microservice to which the request is sent.
 Monitoring data are collected by Locust. 
- -->
-- *Benchmark.txt*. The file contains a link to the MSA under analysis.  
 
+- *Benchmark.txt*. The file contains a link to the MSA under analysis.  
+ -->
 - **Results**. It contains the results of applying the causal model to the dataset. The results are both in the form of Causal Graph (a Directed Acyiclic Graph - DAG) and in a textual form, both representing the relations between microservices in terms of response times (which response time is likely to cause any other). The types of relations (with the associated probability) can be: 
 - A --> B. A is a cause of B. It may be a direct or indirect cause that may include other measured variables. Also, there may be an unmeasured confounder of A and B. It also implies that B is not a cause of A. 
 - A <-> B. There is an unmeasured confounder (call it L) of A and B. There may be measured variables along the causal pathway from L to A or from L to B.
