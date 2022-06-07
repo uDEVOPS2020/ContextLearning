@@ -19,7 +19,9 @@ Each row is an executed test.
 
 - **Code**. Python code files/scripts to: i) generate training and test sets, ii) train and execute the Lerning to Rank techniques, iii) build the ordered list of testIDs. 
 
-*Workload generation*: The dataset is generated with [uTest](https://github.com/uDEVOPS2020/uTest). 
+*Workload generation*: 
+
+The dataset is automatically generated with [uTest](https://github.com/uDEVOPS2020/uTest), configured in pairwise mode. 
 
 *Prerequisites*: 
 
