@@ -13,6 +13,8 @@ print(concat)
 concat.to_csv("finals/final"+fn+".csv",index=False)
 
 if fn == "1":
-    concat.to_csv("finals/FINAL.csv",mode='a',index=False, header=True)
+    print("First row")
+elif fn == "2":
+    concat.to_csv("finals/FINAL.csv",mode='a',index=False, header=True) 
 else:
     concat.to_csv("finals/FINAL.csv",mode='a',index=False, header=False)

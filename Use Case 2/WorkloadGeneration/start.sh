@@ -1,5 +1,5 @@
 #!/bin/sh
-# 60 sec / 5 sec = 12 * n (min) => num
+# 60 sec / 5 sec = 12 * n (min) => num esecuzioni
 
 
 numSamples=$((12*$1))
@@ -39,3 +39,5 @@ do
 
     find . -name "*.csv" -maxdepth 1 -type f -delete
 done   
+
+python3 combine_t.py

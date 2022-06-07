@@ -2,7 +2,9 @@ import pandas as pd
 import sys
 import datetime as dt
 
-df = pd.read_csv("past_executions/ex_10m_step_10-150.csv")
+df = pd.read_csv("finals/FINAL.csv")
+
+df = df.loc[:, df.columns.str.contains("median")]
 
 time = dt.datetime.now()
 temp_list = []
@@ -15,6 +17,4 @@ dft = pd.DataFrame(data=temp_list, columns=['DateTime'])
 
 dfc = pd.concat([dft, df], axis=1)
 
-print(dfc)
-
-dfc.to_csv("ex_10m_step_10-150_DT.csv", index=False)
+dfc.to_csv("dataset.csv", index=False)
