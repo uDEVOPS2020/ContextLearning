@@ -33,12 +33,12 @@ Python (version >3), JVM/JRE (version > 1.8).
 
 Libraries: Anomalize (R code, https://cran.r-project.org/web/packages/anomalize/)  IDTxl (https://github.com/pwollstadt/IDTxl)
 
-For IDTxl, follow the instructions at https://github.com/pwollstadt/IDTxl to install it. 
+For IDTxl, follow the instructions at https://github.com/pwollstadt/IDTxl/wiki/Installation-and-Requirements to install it. 
 
 *Commands*: 
-> ./anomaly.R <dataset_filename>  #for anomaly detection, output jpg image
+> ./anomaly.R <dataset_filename>.csv         #for anomaly detection, output jpg image
 
-> ./MuTE.py             	 #for modelling relation between microservices and the anomaly
+> ./MuTE.py   <dataset_filename>.csv   	     #for modelling relation between microservices and the anomaly
  
 To replicate on a different subject, use Locust and DockerStats monitoring on the new subject, thus apply all the steps i) to iv). Replace the the dataset input filenames in the the two scripts above. 
 
