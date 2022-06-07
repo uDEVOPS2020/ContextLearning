@@ -1,1 +1,1 @@
-
+With the execution of the "start.sh" script the workload is generated with Locust, and the dataset is automatically reported as dataset.csv. The script requires in input the minutes of execution (e.g., start.sh 10).
