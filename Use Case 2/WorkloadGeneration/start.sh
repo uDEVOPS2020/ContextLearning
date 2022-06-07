@@ -16,16 +16,16 @@ do
     # fi
 
 #   esecuzione singola anomalia
-    if (($i > $numSamples/2))
-    then
-        ((numUser=150))
-    fi
+#    if (($i > $numSamples/2))
+#    then
+#        ((numUser=150))
+#    fi
 
     #   esecuzione singola anomalia
-    if (($i > ($numSamples/2)+6))
-    then
-        ((numUser=10))
-    fi
+ #   if (($i > ($numSamples/2)+6))
+ #   then
+ #       ((numUser=10))
+ #   fi
 
     echo "-------------------------------------------------------------------------------"
     echo "NUMUSER: $numUser"
