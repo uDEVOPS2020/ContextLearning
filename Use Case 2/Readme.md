@@ -29,8 +29,6 @@ Moreover, in the SEM folder, you will find the Structural Equation Model corresp
 
 - **Causal discovery**. i) read the dataset and apply the algorithms for causal structure discovery to create a causal model (both as a notebook and as .py file), ii) compute and output the SEM model. 
 
-To reproduce: generate the workload, and then use the causal discovery files. 
-
 *Prerequisites*: 
 
 Python (version >3), JVM/JRE (version > 1.8), Locust (tested with version 2.8.6). 
@@ -49,4 +47,3 @@ tetrad-gui-7.1.0-launch.jar (add this library to the build when running Sem.java
  
 An example dataset file you can use is "MSA_medians_RT.csv" located in the "Use Case 2/dataset" folder, which is the same suggested in the MSA_causal_model notebook 
 
-To replicate on a different subject, use Locust and monitoring scripts on the new subject, thus apply all the steps i) to iv). Replace the input dataset filenames in the two files above. 
