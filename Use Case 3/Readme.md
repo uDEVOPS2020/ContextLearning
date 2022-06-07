@@ -34,7 +34,7 @@ Libraries: Anomalize (R code, https://cran.r-project.org/web/packages/anomalize/
 For IDTxl, follow the instructions at https://github.com/pwollstadt/IDTxl/wiki/Installation-and-Requirements to install it. 
 
 *Commands*: 
-> ./anomaly.R <dataset_filename>.csv         #for anomaly detection, output jpg image
+> ./anomaly.R <dataset_filename>.csv         #for anomaly detection, output a jpg image
 
 > ./MuTE.py   <dataset_filename>.csv   	     #for modelling relation between microservices and the anomaly
  
