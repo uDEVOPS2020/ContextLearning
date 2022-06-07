@@ -29,7 +29,7 @@ Moreover, in the SEM folder, you will find the Structural Equation Model corresp
 
 - **Causal discovery**. iii) read the dataset and apply the algorithms for causal structure discovery to create a causal model (both as a notebook and as .py file), iv) compute and output the SEM model. 
 
-To reproduce: generate the workload, and then use the code files for causal discovery. 
+To reproduce: generate the workload, and then use the causal discovery files. 
 
 *Prerequisites*: 
 
