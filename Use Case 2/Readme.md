@@ -6,7 +6,7 @@ This folder contains:
 
 Dataset has the following columns: 
 
-| Reponse Time median MS1 | ... | Response Time median MSn | Reponse Time avg MS1 | ... | Response Time avg MSn |
+| Reponse Time median MS1 | ... | Response Time median MSn |
 
 Each row is a sample every 5 seconds. 
 
