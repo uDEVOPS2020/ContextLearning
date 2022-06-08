@@ -3,7 +3,7 @@
 
 This folder contains the code and data to run the anomaly detection and Root Cause Analysis (RCA) example.
 
-- **Dataset**. *ex_10m_spike_30s_10-150_DT.csv*. This is the dataset used as illustrative example for this use case. It is derived by running a workload, as described below, on a well-known open-source benchmark for microservice  architecture (MSA), named Train Ticket [1].  The application simulates a train ticket booking system, composed of 41 microservices communicating to each other via REST over HTTP. Train ticket is  polyglot (e.g., Java, golang, Node.js, etc). 
+**Dataset**. *ex_10m_spike_30s_10-150_DT.csv*. This is the dataset used as illustrative example for this use case. It is derived by running a workload, as described below, on a well-known open-source benchmark for microservice  architecture (MSA), named Train Ticket [1].  The application simulates a train ticket booking system, composed of 41 microservices communicating to each other via REST over HTTP. Train ticket is  polyglot (e.g., Java, golang, Node.js, etc). 
 
 The dataset has the following columns: |Container1 CPU usage| ... |ContainerN CPU usage|Container1 Memory usage| ... |ContainerN Memory usage|
 
