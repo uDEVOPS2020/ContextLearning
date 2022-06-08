@@ -17,8 +17,8 @@ To reproduce:  run the artifact_RF.py and artifact_LR.py scripts.
 Python (version >3)
 
 *Commands*: 
->  You can run the "python artifact_RF.py" script to run the feature stability on the Random Forest model.
->  You can run the "python artifact_LR.py" script to run the feature stability on the Logistic Regression model.
+>  Run the "python artifact_RF.py" script to run the feature stability on the Random Forest model.
+>  Run the "python artifact_LR.py" script to run the feature stability on the Logistic Regression model.
 
 **Results**. The output reports the feature importance of each feature for the considered model (RF: Random Forest, LR: Logistic Regression), and the feature stability value computed as in [2]. This can be useful to assess which metrics are the best predictors not only from the accuracy point of view, but from the stability perspective. 
 
