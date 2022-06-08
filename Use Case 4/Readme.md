@@ -5,7 +5,7 @@ This folder contains the code and data to run the feature stability analysis in 
 **Dataset**. This folder contains the dataset used as illustrative example for this use case. The dataset consists of commit data for 6 open source applications. It is cloned from a JIT-DP research work repository (https://github.com/ZZR0/ISSTA21-JIT-DP). As in [1], the generation procedure cosists of data extraction through python scripts, and labelling by the SZZ algorithm.
 
 Each subject dataset has the following columns: 
-_id | date | ns | nd | nf | entrophy | la | ld | lt | fix | ndev | age | nuc | exp | rexp | sexp
+_id | date | ns | nd | nf | entropy | la | ld | lt | fix | ndev | age | nuc | exp | rexp | sexp
 
 Each row refers to a commit.   
  
