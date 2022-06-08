@@ -4,7 +4,7 @@ This repository contains the artifacts related to the context learning functiona
 
 Details about the techniques used and a description of the use case are available in the accompayning document, at www.udevops.eu. 
 
-There is a Readme file in every use case that describes the content and usage. 
+Will find a Readme file in every use case that describes the content and usage. 
 
 
 [1]. [TrainTicket](https://github.com/FudanSELab/train-ticket)
