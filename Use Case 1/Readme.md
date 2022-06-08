@@ -21,7 +21,7 @@ Each row is an executed test.
 
 *Workload generation*: 
 
-The dataset is automatically generated with [uTest](https://github.com/uDEVOPS2020/uTest), configured in pairwise mode. 
+The dataset is automatically generated with [uTest](https://github.com/uDEVOPS2020/uTest) starting from microservices' OpenAPI specifications. Configured in pairwise mode, the tool generated 4690 test cases (example dataset).
 
 *Prerequisites*: 
 
