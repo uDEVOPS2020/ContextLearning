@@ -2,14 +2,14 @@
 
 This folder contains the code and data to run the feature stability analysis in  Just-In-Time Defect Prediction (JIT-DP) example.
 
-- **Dataset**. This folder contains the dataset used as illustrative example for this use case. The dataset consists of commit data for 6 open source applications. It is cloned from a JIT-DP research work repository (https://github.com/ZZR0/ISSTA21-JIT-DP). As in [1], the generation procedure cosists of data extraction through python scripts, and labelling by the SZZ algorithm.
+**Dataset**. This folder contains the dataset used as illustrative example for this use case. The dataset consists of commit data for 6 open source applications. It is cloned from a JIT-DP research work repository (https://github.com/ZZR0/ISSTA21-JIT-DP). As in [1], the generation procedure cosists of data extraction through python scripts, and labelling by the SZZ algorithm.
 
 Each subject dataset has the following columns: 
 _id | date | ns | nd | nf | entrophy | la | ld | lt | fix | ndev | age | nuc | exp | rexp | sexp
 
 Each row refers to a commit.   
  
-- **Code**. Python code files/scripts to: i) perform defect prediction on a dataset in the same format as the Dataset's folder files; this includes code for training the Random Forest and Logistic Regression models. Feature stability is computed according to the algorithm described in [2]. ii) Random Forest algorithm represent the worst case, in which each tree considers different features at each execution; Logistic Regression represents the best case since the selected features (the ones with a positive coefficient) are very often the same.  
+**Code**. Python code files/scripts to: i) perform defect prediction on a dataset in the same format as the Dataset's folder files; this includes code for training the Random Forest and Logistic Regression models. Feature stability is computed according to the algorithm described in [2]. ii) Random Forest algorithm represent the worst case, in which each tree considers different features at each execution; Logistic Regression represents the best case since the selected features (the ones with a positive coefficient) are very often the same.  
 
 To reproduce:  se artifact_RF.py and artifact_LR.py scripts. 
 
