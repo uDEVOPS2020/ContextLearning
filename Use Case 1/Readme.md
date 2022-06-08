@@ -36,3 +36,7 @@ RankLib library (Dang, V. “The Lemur Project-Wiki-RankLib.” Lemur Project,[O
 
 >  Run the "sh ranking.sh" script to perform the ranking of the selected test dataset.
 
+
+
+
+[1]. [TrainTicket](https://github.com/FudanSELab/train-ticket)
