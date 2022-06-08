@@ -1,13 +1,13 @@
 
 ## Use case 1. Test case prioritization via Learning to rank techniques. 
 
-This folder the dataset and code to reproduce a test prioritization example we have used to test the feasibility of the strategy: 
+This folder contains the dataset and code to reproduce the test prioritization example we have used to test the feasibility of the strategy: 
 
 **Dataset**. *testFeatures.csv*. This is the dataset used as illustrative example for this use case. It is derived by running a load on a well-known open-source benchmark for microservice  architecture (MSA), named Train Ticket [1].  The application simulates a train ticket booking system, composed of 41 microservices communicating to each other via REST over HTTP. Train ticket is  polyglot (e.g., Java, golang, Node.js, etc). 
 
-*Workload generation*: 
+**Workload generation**: 
 
-The dataset is automatically generated with a teseting tool we are developing in the context of the project, called [uTest](https://github.com/uDEVOPS2020/uTest). The tool generates tests starting from microservices' OpenAPI specifications. Configured in *pairwise mode*, the tool generated 4690 test cases by a combinatorial testing strategy. 
+The dataset is automatically generated with a teseting tool we are developing in the context of the project's WP2, called [uTest](https://github.com/uDEVOPS2020/uTest). The tool generates tests starting from microservices' OpenAPI specifications. Configured in *pairwise mode*, the tool generated 4690 test cases by a combinatorial testing strategy. 
 
 The so-obtained dataset has the following columns: 
 
