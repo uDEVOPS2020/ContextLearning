@@ -6,10 +6,6 @@ Details about the techniques used and a description of the use case are availabl
 
 Will find a Readme file in every use case that describes the content and usage. 
 
-
-[1]. [TrainTicket](https://github.com/FudanSELab/train-ticket)
-[2]. [Locust](https://locust.io/). 
-
 *Note: This GitHub repository is meant to be evolved as the project advances.*  
 
 
