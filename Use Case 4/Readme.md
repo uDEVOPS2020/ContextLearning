@@ -11,7 +11,7 @@ Each row refers to a commit.
  
 **Code**. Python code files/scripts to: i) perform defect prediction on a dataset in the same format as the Dataset's folder files; this includes code for training the Random Forest and Logistic Regression models. Feature stability is computed according to the algorithm described in [2]. ii) Random Forest algorithm represent the worst case, in which each tree considers different features at each execution; Logistic Regression represents the best case since the selected features (the ones with a positive coefficient) are very often the same.  
 
-To reproduce:  se artifact_RF.py and artifact_LR.py scripts. 
+To reproduce:  run the artifact_RF.py and artifact_LR.py scripts. 
 
 *Prerequisites*: 
 Python (version >3)
