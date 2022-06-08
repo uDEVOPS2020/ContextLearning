@@ -1,5 +1,5 @@
 
-## Use case 2. Characterizing causal-effect releations betweeen microservices in an MSA 
+## Use case 2. Performance-related causal structure discovery in a Microservice Architecture
 
 This folder contains the code and data to run the cause-effect characterization example.  
 
