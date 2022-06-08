@@ -1,4 +1,4 @@
-# Deliverable 2.2 of the μDevOps Project. The μDevOps learning engine. 
+# The μDevOps learning engine. Deliverable 2.2 of the μDevOps Project. 
 
 This repository contains the artifacts related to the context learning functionality foreseen by the project, aimed at supprting Software Quality Assurance (SQA) activities in Microservice DevOps engineering. Specifically, 4 use cases are described by which the following SQA activities are supported, which are especially relevant for engineering Microservice Archicteture (MSA) applications in a DevOps environment: *(Regression) Testing*, *Causal-effect releation betweeen microservices in an MSA*, *Anomaly detection and root cause analysis*, *Just-in-time software defect prediction*. 
 
